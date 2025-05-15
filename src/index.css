@@ -6,3 +6,10 @@
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
 }
+
+@theme {
+  --breakpoints-sm: 480px;
+  --breakpoints-md: 768px;
+  --breakpoints-lg: 976px;
+  --breakpoints-xl: 1446px;
+}

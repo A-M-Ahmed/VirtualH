@@ -11,7 +11,6 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
-import logo from "../assets/logo.png";
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -176,4 +175,9 @@ export const communityLinks = [
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
+];
+
+export const authenticationPage = [
+  { text: "sign in" },
+  { text: "create an account" },
 ];

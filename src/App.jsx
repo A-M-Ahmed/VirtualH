@@ -1,16 +1,17 @@
 import FeatureSection from "./components/FeatureSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import WorkFlowSection from "./components/WorkFlowSection";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto pt-15 px-6">
+      <div className="mx-auto max-w-7xl px-6 pt-15">
         <HeroSection />
         <FeatureSection />
+        <WorkFlowSection />
       </div>
- 
     </>
   );
 }

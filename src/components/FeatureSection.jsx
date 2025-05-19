@@ -3,7 +3,7 @@ import { features } from "../constants";
 
 const FeatureSection = () => {
   return (
-    <div className="my-15 border-b border-neutral-800 py-15">
+    <div className=" my-0 md:my-15 border-b border-neutral-800 py-15">
       <div className="py-3 text-center">
         <span className="rounded-full bg-neutral-900 px-3 py-2 text-sm tracking-wide text-orange-500 uppercase">
           Feature

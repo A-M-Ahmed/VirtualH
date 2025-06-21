@@ -30,7 +30,7 @@ const PricingSection = () => {
                 </li>
               ))}
             </ul>
-            <button className="py-3 px-4 border border-red-400/40 rounded-md w-full my-6">Subscribe</button>
+            <button className="py-3 px-4 border border-red-400/40 rounded-md w-full my-6 cursor-pointer hover:bg-orange-800 duration-200">Subscribe</button>
           </div>
         ))}
       </div>

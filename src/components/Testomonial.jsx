@@ -12,9 +12,9 @@ const Testimonial = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
           {
             testimonials.map(testM => (
-              <div key={testM.user} className='shadow-md border border-gray-600 rounded-md  p-6 pb-4 bg-gray-900/20 '>
+              <div key={testM.user} className='shadow-md border border-gray-800/50 rounded-md  p-6 pb-4 bg-[#171717] '>
 
-                <p className='text-sm tracking-tight  text-white/70 mb-2'>{testM.text}</p>
+                <p className='text-base tracking-wide my-4  text-white/70 mb-2'>{testM.text}</p>
                 <div className='flex space-x-6 mt-3'>
                   {/* //* Image of the user */}
                   <div className='w-12 h-12 rounded-full border border-white/55'>
@@ -24,7 +24,7 @@ const Testimonial = () => {
                   {/* //* Content */}
                   <div>
               <h3>{testM.user}</h3>
-              <p className='text-gray-700 font-medium'>{testM.company}</p>
+              <p className='text-[#404040] font-medium'>{testM.company}</p>
                   </div>
                 </div>
               </div>

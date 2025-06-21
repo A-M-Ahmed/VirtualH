@@ -178,6 +178,6 @@ export const communityLinks = [
 ];
 
 export const authenticationPage = [
-  { text: "sign in" },
-  { text: "create an account" },
+  { href: "#", text: "sign in" },
+  { href: "#", text: "create an account" },
 ];

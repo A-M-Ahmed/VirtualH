@@ -1,6 +1,6 @@
 import React from "react";
 import { pricingOptions } from "../constants";
-import { Check } from "lucide-react";
+import { Check, CheckCircle2 } from "lucide-react";
 
 const PricingSection = () => {
   return (
@@ -20,10 +20,12 @@ const PricingSection = () => {
             <ul className="flex flex-col space-y-7 my-4">
               {price.features.map((fet, ind) => (
                 <li key={ind} className="flex ">
-                  <div className="h-6 w-6 rounded-full bg-white p-0.5 mr-2.5">
+                   
+                  <div className="h-6 w-6 rounded-full  p-0.5 mr-2.5">
                     <div className="bg-neutral-900 w-full h-full rounded-full flex justify-center items-center">
 
-                    <Check color="#fff" strokeWidth={3} size={15} />
+                      <CheckCircle2 />
+                  
                     </div>
                   </div>
                   {fet}

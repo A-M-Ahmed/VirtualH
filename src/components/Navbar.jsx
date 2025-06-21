@@ -16,7 +16,7 @@ const Navbar = () => {
           {/* //** for the logo */}
           <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="logo-page" className="mr-5 h-10 w-10" />
-            <h2 className="text-xl tracking-tight">VirtualR</h2>
+            <h2 className="text-xl tracking-tight">VirtualH</h2>
           </div>
           {/* //**nav links */}
           <ul className="hidden space-x-12 lg:flex">

@@ -8,8 +8,8 @@ const HeroSection = () => {
     // ** Hero sections
     <div className="flex flex-col items-center justify-center">
       <h1 className="my-3 py-3 text-center text-3xl tracking-wide sm:text-6xl">
-        Virtual build tools for 
-        <span className="ml-2">
+        VirtualH build tools for 
+        <span className="md:ml-2 ml-3">
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
@@ -39,7 +39,7 @@ const HeroSection = () => {
       <div className="mb-5 flex flex-col space-y-6 space-x-0 md:flex-row md:items-center md:justify-center md:space-y-0 md:space-x-8">
         <a
           href="#"
-          className="rounded-md bg-gradient-to-r from-orange-500 via-pink-700 to-orange-800 px-4 py-3"
+          className="rounded-md bg-gradient-to-r  from-orange-500 via-pink-700 to-orange-800 px-4 py-3"
         >
           Start for free
         </a>

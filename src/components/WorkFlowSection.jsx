@@ -1,7 +1,7 @@
 import React from "react";
 import Code from "../assets/code.jpg";
 import { checklistItems } from "../constants";
-import { Check } from "lucide-react";
+import { Check, CheckCircle2 } from "lucide-react";
 
 const WorkFlowSection = () => {
   return (
@@ -21,9 +21,9 @@ const WorkFlowSection = () => {
                   className="my-5 flex items-start space-x-2 py-3"
                 >
                   <div className="flex h-12 w-15 items-center justify-center rounded-full bg-neutral-900/80">
-                    <div className="h-6 w-6 rounded-full bg-green-500 p-0.5 text-white">
+                    <div className="h-6 w-6 rounded-full ">
                       <div className="flex h-full w-full items-center justify-center rounded-full bg-neutral-900">
-                        <Check size={12} color="#12de20" strokeWidth={5} />
+                        <CheckCircle2  color="#12de20" strokeWidth={3} />
                       </div>
                     </div>
                   </div>

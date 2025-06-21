@@ -9,7 +9,7 @@ const Testimonial = () => {
       </h3>
       {/* //* Comments people */}
       <div className='py-11'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-7 '>
           {
             testimonials.map(testM => (
               <div key={testM.user} className='shadow-md border border-gray-800/50 rounded-md  p-6 pb-4 bg-[#171717] '>

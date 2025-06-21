@@ -9,7 +9,7 @@ const Footer = () => {
         <div className=' border-t border-white/30 max-w-6xl mx-auto py-6'>
 
 {/* //* inside of container */}
-        <div className='flex  justify-between'>
+        <div className='flex   md:flex-row flex-wrap justify-between'>
             {/* //* Resources */}
             <div>
                 <h3 className='my-3 text-base font-medium'>Resources</h3>

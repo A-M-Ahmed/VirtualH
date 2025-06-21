@@ -21,7 +21,7 @@ const PricingSection = () => {
               {price.features.map((fet, ind) => (
                 <li key={ind} className="flex ">
                    
-                  <div className="h-6 w-6 rounded-full  p-0.5 mr-2.5">
+                  <div className="h-6 w-6 rounded-full   mr-2.5">
                     <div className="bg-neutral-900 w-full h-full rounded-full flex justify-center items-center">
 
                       <CheckCircle2 />

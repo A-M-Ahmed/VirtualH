@@ -50,15 +50,16 @@ npm install
 # Start the development server
 npm run dev
 
-
+```
 🛠 Scripts
+```bash
 npm run dev       # Run development server
 npm run build     # Build for production
 npm run lint      # Lint the project
 npm run format    # Format with Prettier
-
+```
 🧩 Structure Overview
-Although this is a single page, the app is organized with many components:
+```bash
 
 ├── public/
 ├── src/
@@ -68,6 +69,6 @@ Although this is a single page, the app is organized with many components:
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
-
+```
 👨‍💻 Author
 Made with ❤️ by Hajji

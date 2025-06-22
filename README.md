@@ -51,14 +51,14 @@ npm install
 npm run dev
 
 ```
-🛠 Scripts
+## 🛠 Scripts
 ```bash
 npm run dev       # Run development server
 npm run build     # Build for production
 npm run lint      # Lint the project
 npm run format    # Format with Prettier
 ```
-🧩 Structure Overview
+## 🧩 Structure Overview
 ```bash
 
 ├── public/
@@ -70,5 +70,5 @@ npm run format    # Format with Prettier
 ├── vite.config.js
 └── package.json
 ```
-👨‍💻 Author
+## 👨‍💻 Author
 Made with ❤️ by Hajji

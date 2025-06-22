@@ -23,7 +23,7 @@ const Footer = () => {
                 }
             </div>
             {/* //* PlatForm */}
-            <div>
+            <div className='hidden md:block'>
                 <h3 className='my-3 text-base font-medium'>Platform</h3>
                 {
                     platformLinks.map(rcs => (
@@ -35,7 +35,7 @@ const Footer = () => {
                 }
             </div>
             {/* //* community */}
-            <div>
+            <div className='hidden md:block'>
                 <h3 className='my-3 text-base font-medium capitalize'>community</h3>
                 {
                     communityLinks.map(rcs => (
